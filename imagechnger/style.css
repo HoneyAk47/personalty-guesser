@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Poppins&display=swap'); 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    }
+    .main{
+        background-color: rgb(197, 193, 250);
+        margin: 40px 40px 40px 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        height: 600PX;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400PX;
+        width: 400PX;
+        background-color: rgb(118, 129, 158);
+        border-radius: 3rem;
+    }
+    h1{
+        font-size: 2rem;
+        overflow: hidden;
+        border-right: 0.15em solid orange;
+        white-space: nowrap;
+        animation: typing 4s steps(50, end) infinite;
+        width: 150px;
+    }
+    @keyframes typing {
+        from{
+            width: 0;
+        }
+        to{
+            width: 100%;
+        }
+        
+    }
+    label{
+        padding-left: 20px;
+        
+    }
+    #namechnge{
+        margin-top: 10px;
+       border-radius: 3rem;
+       padding: 0.3rem;
+       border: none;
+        outline: none;
+
+    }
+    h3{
+        visibility: hidden;
+    }
+    #btn{
+        border-radius: 3rem;
+        padding: 0.7rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+outline: none;
+border: none;
+width: 9rem;
+font-size:1rem;
+margin-top: 30px;
+    }
+    

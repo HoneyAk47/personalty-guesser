@@ -23,7 +23,7 @@ button.addEventListener("click", function(){
     image.setAttribute("src" ,`https://joesch.moe/api/v1/ ${a}`);
     setTimeout(()=>{
         h3.style.visibility="visible";
-    },1000)
+    },2000)
     setTimeout(()=>{
         h3.style.visibility="hidden";
     },4000);
